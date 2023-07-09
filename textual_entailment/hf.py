@@ -1,9 +1,5 @@
-import datasets
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 import torch
-import json
-from os.path import join as pjoin
-
 
 class HFEntail:
   def __init__(self, entailment_model='facebook/bart-large-mnli', device=None) -> None:

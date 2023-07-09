@@ -1,8 +1,5 @@
-import json
 from allennlp_models import pretrained
-import datasets
 import numpy as np
-from os.path import join as pjoin
 
 class AllenNLPEntail:
   """_summary_

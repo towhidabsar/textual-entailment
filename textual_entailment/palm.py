@@ -1,10 +1,5 @@
-from os.path import join as pjoin
 import google.generativeai as palm
 import time
-import json
-from dotenv import load_dotenv
-import datasets
-from tqdm import tqdm
 
 class PALM:
     def __init__(self, key, model_idx=0, max_retry=5, json=True) -> None:
